@@ -1,0 +1,6 @@
+Crashes on phones.
+
+This is a very small project which crashes on most phones.  It
+exploits something wrong with the native implementation of
+Cursor.copyStringToBuffer() when this method is used on very large
+(for a phone) numbers of rows.
